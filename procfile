@@ -1,0 +1,1 @@
+web: gunicorn markerplace.wsgi --log-file -

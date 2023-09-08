@@ -1,0 +1,33 @@
+{% extends 'market/layout/main.html' %}
+
+{% block content %} 
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="">
+                <div class="card mt-3 shadow">
+                    <div class="card-body">
+                            <form method="post">
+                                {% csrf_token %}
+                                <h4> Login </h4>
+                                <div>
+                                    <hr/>
+                                    <label for="">Username:</label> <br>
+                                    <input type="text" class="form-control" name="username" placeholder="Enter username">
+                                </div>
+
+                                <div>
+                                    <label for="">Password:</label> <br>
+                                    <input type="Password" class="form-control" name="password" placeholder="Enter Password">
+                                </div><br>
+                                <button type="submit" class="btn float-end shadow btn-success px-4">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
