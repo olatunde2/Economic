@@ -13,6 +13,7 @@ To run this project locally, follow these steps:
    cd django-market-app
 
 Create a virtual environment and install dependencies:
+
     python -m venv venv
     
     source venv/bin/activate  
@@ -38,7 +39,7 @@ Access the application at http://localhost:8000/
 
 ## API Endpoints
 
-Home
+### Home
 
 Endpoint: /
 
@@ -46,7 +47,7 @@ Description: Renders the home page of the market application.
 
 Method: GET
 
-Collections
+### Collections
 
 Endpoint: /collections/
 
@@ -54,7 +55,7 @@ Description: Displays a list of available product categories.
 
 Method: GET
 
-Collection View
+### Collection View
 
 Endpoint: /collections/<str:slug>/
 
@@ -62,7 +63,7 @@ Description: Displays products within a specific category.
 
 Method: GET
 
-Product View
+### Product View
 
 Endpoint: /collections/<str:cate_slug>/<str:prod_slug>/
 
@@ -70,7 +71,7 @@ Description: Displays detailed information about a product.
 
 Method: GET
 
-User Registration
+### User Registration
 
 Endpoint: /register/
 
@@ -78,7 +79,7 @@ Description: Allows users to register for an account.
 
 Method: POST
 
-User Login
+### User Login
 
 Endpoint: /login/
 
@@ -86,7 +87,7 @@ Description: Allows users to log in to their accounts.
 
 Method: POST
 
-User Logout
+### User Logout
 
 Endpoint: /logout/
 
@@ -94,7 +95,7 @@ Description: Allows users to log out from their accounts.
 
 Method: GET
 
-Add to Cart
+### Add to Cart
 
 Endpoint: /add-to-cart
 
@@ -102,7 +103,7 @@ Description: Adds a product to the user's shopping cart.
 
 Method: POST
 
-View Cart
+### View Cart
 
 Endpoint: /cart
 
@@ -110,7 +111,7 @@ Description: Displays the user's shopping cart.
 
 Method: GET
 
-Update Cart
+### Update Cart
 
 Endpoint: /update-cart
 
@@ -118,7 +119,7 @@ Description: Updates the quantities of products in the shopping cart.
 
 Method: POST
 
-Delete Cart Item
+### Delete Cart Item
 
 Endpoint: /delete-cart-item
 
@@ -126,7 +127,7 @@ Description: Removes a product from the shopping cart.
 
 Method: POST
 
-Wishlist
+### Wishlist
 
 Endpoint: /wishlist
 
@@ -134,7 +135,7 @@ Description: Displays the user's wishlist.
 
 Method: GET
 
-Add to Wishlist
+### Add to Wishlist
 
 Endpoint: /add-to-wishlist
 
@@ -142,7 +143,7 @@ Description: Adds a product to the user's wishlist.
 
 Method: POST
 
-Delete Wishlist Item
+### Delete Wishlist Item
 
 Endpoint: /delete-wishlist-item
 
@@ -150,7 +151,7 @@ Description: Removes a product from the user's wishlist.
 
 Method: POST
 
-Checkout
+### Checkout
 
 Endpoint: /checkout
 
@@ -158,7 +159,7 @@ Description: Displays the checkout page for placing orders.
 
 Method: GET
 
-Place Order
+### Place Order
 
 Endpoint: /place-order
 
@@ -166,7 +167,7 @@ Description: Places an order for the products in the shopping cart.
 
 Method: POST
 
-My Orders
+### My Orders
 
 Endpoint: /my-orders
 
@@ -174,7 +175,7 @@ Description: Displays a list of the user's orders.
 
 Method: GET
 
-View Order
+### View Order
 
 Endpoint: /view-order/<str:t_no>
 
