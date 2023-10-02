@@ -36,7 +36,7 @@ Start the development server:
 
 Access the application at http://localhost:8000/
 
-API Endpoints
+## API Endpoints
 
 Home
 
