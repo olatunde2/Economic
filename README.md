@@ -7,11 +7,9 @@ This Django project is a simple market application for managing products, catego
 To run this project locally, follow these steps:
 
 1. Clone the repository:
+      git clone https://github.com/yourusername/django-market-app.git
    
-``shell
-
-   git clone https://github.com/yourusername/django-market-app.git
-   cd django-market-app
+      cd django-market-app
 
 Create a virtual environment and install dependencies:
 
