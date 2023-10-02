@@ -8,10 +8,9 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-
-      git clone https://github.com/yourusername/django-market-app.git
-   
-      cd django-market-app
+   ```shell
+   git clone https://github.com/yourusername/django-market-app.git
+   cd django-market-app
 
 Create a virtual environment and install dependencies:
 
